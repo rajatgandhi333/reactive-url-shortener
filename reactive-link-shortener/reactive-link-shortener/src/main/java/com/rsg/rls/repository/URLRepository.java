@@ -26,5 +26,5 @@ public class URLRepository {
                 .get(key)
                 .map(x -> new Link(x, key));
     }
-    
+
 }
